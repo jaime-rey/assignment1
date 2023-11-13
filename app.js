@@ -7,6 +7,7 @@
 
   LunchCheckController.$inject = ["LunchCheckController"];
   function LunchCheckController(LunchCheckController) {
-    var list = this;
+    let list = this;
+    list.listText = "";
   }
 })();
