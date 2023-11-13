@@ -9,5 +9,6 @@
   function LunchCheckController(LunchCheckController) {
     let list = this;
     list.listText = "";
+    console.log("LunchCheckController");
   }
 })();
