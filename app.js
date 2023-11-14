@@ -1,6 +1,6 @@
 (function () {
   ("use strict");
-
+  console.log("InitLunchCheckController");
   angular
     .module("LunchCheck", [])
     .controller("LunchCheckController", LunchCheckController);
